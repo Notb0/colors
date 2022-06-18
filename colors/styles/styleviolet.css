@@ -19,8 +19,8 @@
 }
 
 body{
-  font-family: 'Inconsolata', monospace; /*название шрифта*/
-  font-size: 16px; /*размер шрифта*/
+  font-family: 'Inconsolata', monospace; 
+  font-size: 16px; 
   line-height: 20px;
   color: #E1BBFC;
   background-color: #E0DEFF; 
@@ -31,7 +31,7 @@ h1 {
   width: 255px;
   margin: 0 auto 5px;
   font-family: 'Inconsolata', monospace;
-  text-align: center; /*горизонтальное расположение текста*/
+  text-align: center; 
   font-weight: normal;
   font-size: 66px;
   line-height: 64px;
@@ -40,8 +40,6 @@ h1 {
 
 .buttonn {
   background-color:#8a82bd;
- /* background: -moz-linear-gradient(#8a82bd, #A586D0, #8a82bd);
-  background: -webkit-gradient(linear, 0 0, 0  100%, from(#8a82bd), to(#8a82bd), color-stop(0.5, #A586D0));*/
   color: #625290;
   width: 96px;
   height: 25px;
@@ -65,21 +63,21 @@ h1 {
   max-width: 130px;
 }
 
-/* Боковое меню навигации */
+
 .sidenav {
-  height: 100%; /* 100% Полный рост */
-  width: 0; /* 0 ширина - измените это с помощью JavaScript */
-  position: fixed; /* Оставаться на месте */
-  z-index: 1; /* Оставайтесь на вершине */
+  height: 100%; 
+  width: 0; 
+  position: fixed; 
+  z-index: 1; 
   top: 0;
   left: 0;
-  background-color: #8288bc; /* Черный */
-  overflow-x: hidden; /* Отключить горизонтальную прокрутку */
-  padding-top: 60px; /* Поместите содержимое 60px сверху */
-  transition: 0.5s; /* 0.5 секунд эффект перехода, чтобы скользить в sidenav */
+  background-color: #8288bc; 
+  overflow-x: hidden; 
+  padding-top: 60px; 
+  transition: 0.5s; 
 }
 
-/* Ссылки в меню навигации */
+
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
@@ -90,12 +88,12 @@ h1 {
   transition: 0.3s;
 }
 
-/* При наведении курсора мыши на навигационные ссылки измените их цвет */
+
 .sidenav a:hover {
   color: #f1f1f1;
 }
 
-/* Положение и стиль кнопки закрытия (верхний правый угол) */
+
 .sidenav .closebtn {
   position: absolute;
   top: 0;
@@ -104,13 +102,13 @@ h1 {
   margin-left: 50px;
 }
 
-/* Стиль содержимого страницы - Используйте это, если вы хотите переместить содержимое страницы вправо при открытии боковой навигации */
+
 #main {
   transition: margin-left .5s;
   padding: 0px;
 }
 
-/* На небольших экранах, где высота меньше 450px, измените стиль sidenav (меньше отступов и меньший размер шрифта) */
+
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
