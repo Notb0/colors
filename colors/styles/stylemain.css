@@ -21,7 +21,7 @@
 
 
 body{
-  font-family: 'Inconsolata', monospace;;
+  font-family: 'Inconsolata', monospace;; /*стиль шрифта*/
   font-size: 16px;
   line-height: 20px;
   color: #E1BBFC;
@@ -35,8 +35,8 @@ h1 {
   width: 255px;
   margin: 0 auto 5px;
   font-family: 'Inconsolata', monospace;
-  text-align: center;
-  font-weight: normal;
+  text-align: center; /*расположение по центру*/
+  font-weight: normal; /*начертание шрифта*/
   font-size: 66px;
   line-height: 64px;
   margin-top: 26px;
@@ -62,7 +62,7 @@ h1 {
     display: inline-block;
     width: 60px;
     height: 60px;
-    border-radius: 100%;
+    border-radius: 100%; /*округление границ*/
     background: #efefef;
     position: relative;
     margin: 5px;
@@ -83,10 +83,10 @@ h1 {
     position: relative;
     line-height: 60px;
 }
-.link a:hover {
+.link a:hover { /*при наведении*/
     color: #fff;
 }
-.link a:after {
+.link a:after { 
     content: '';
     display: block;
     position: absolute;
@@ -129,7 +129,7 @@ h1 {
   cursor: pointer;
 }
 
-.buttonn:active {
+.buttonn:active { /*при нажатии*/
   color: black;
 }
 
@@ -137,7 +137,7 @@ h1 {
   color: black;
 }
 
-
+/*боковая панель*/
 .sidenav {
   height: 100%; 
   width: 0; 
@@ -151,7 +151,7 @@ h1 {
   transition: 0.5s; 
 }
 
-
+/*сслыки*/
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
@@ -162,12 +162,12 @@ h1 {
   transition: 0.3s;
 }
 
-
+/*при наведении*/
 .sidenav a:hover {
   color: #f1f1f1;
 }
 
-
+/*при закрытии*/
 .sidenav .closebtn {
   position: absolute;
   top: 0;
